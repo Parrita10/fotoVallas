@@ -2,10 +2,10 @@
 
 <?php  
     
-            $server = 'localhost';
-            $username = 'root';
-            $password = '';
-            $dbname = 'fotovallas';       
+            $server = 'sql104.epizy.com';
+            $username = 'epiz_32854319';
+            $password = 'JNq5pV9m1sbfq';
+            $dbname = 'epiz_32854319_fotovallas';       
             try {
                 $db = mysqli_connect($server, $username, $password, $dbname);
                 $db->set_charset("utf8");
